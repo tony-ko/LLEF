@@ -189,9 +189,7 @@ for m = 1:1:M
     v = fftshift(fft(v));
     v = const_add + exp_prop.*v;
     u = ifft(fftshift(v));
-    
-    clear v
-    
+       
     % add to the field storage
     U(m,:) = u';
 end
