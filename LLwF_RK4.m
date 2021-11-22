@@ -218,7 +218,7 @@ xlabel('\xi')
 ylabel('y')
 axis tight
 clear xscale yscale h
-%% joy division plot
+%% stacked plot
 figure(3);clf
 xscale = 3000;
 yscale = 1;
